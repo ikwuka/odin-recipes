@@ -1,2 +1,1 @@
-# odin-recipes
-My first but outstanding GitHub repo! 
+An oportunity to reflect on professionalism.
