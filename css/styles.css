@@ -1,0 +1,19 @@
+@import url(./fonts.css);
+html,
+body {
+    box-sizing: border-box;
+}
+
+
+/* Variables creation */
+
+ :root {
+    /* Font family */
+    --Josefin: 'Josefin', Helvetica, Verdana, 'Times New Roman', Georgia, sans-serif;
+    --Lexend: 'Lexend', Helvetica, Verdana, Georgia, sans-serif;
+    --Livvic: 'Livvic', Arial, Helvetica, Verdana, Georgia, monospace;
+    /* Colors */
+    --blue: #1DA1FF;
+    --gray: #9A9A9A;
+    --light-gray: #CCCCCC;
+}
