@@ -1,19 +1,90 @@
-@import url(./fonts.css);
-html,
-body {
-    box-sizing: border-box;
-}
-
-
-/* Variables creation */
-
- :root {
-    /* Font family */
-    --Josefin: 'Josefin', Helvetica, Verdana, 'Times New Roman', Georgia, sans-serif;
-    --Lexend: 'Lexend', Helvetica, Verdana, Georgia, sans-serif;
-    --Livvic: 'Livvic', Arial, Helvetica, Verdana, Georgia, monospace;
-    /* Colors */
-    --blue: #1DA1FF;
-    --gray: #9A9A9A;
-    --light-gray: #CCCCCC;
-}
+        @import url(./fonts.css);
+        /* Variables creation */
+        
+         :root {
+            /* Font family */
+            --Josefin: 'Josefin', Helvetica, Verdana, 'Times New Roman', Georgia, sans-serif;
+            --Lexend: 'Lexend', Helvetica, Verdana, Georgia, sans-serif;
+            --Livvic: 'Livvic', Arial, Helvetica, Verdana, Georgia, monospace;
+            /* Colors */
+            --blue: #1DA1FF;
+            --gray: #9A9A9A;
+            --light-gray: #CCCCCC;
+        }
+        /* ---- Global classes ---- */
+        
+        body {
+            background-color: #FFFFFF;
+            color: hsl(0, 0%, 0%);
+            font-family: var(--Josefin);
+            font-size: 17px;
+            box-sizing: border-box;
+            margin: 0%;
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--blue);
+        }
+        /* --x-- Global classes --x-- */
+        
+        #brand {
+            color: rgb(255, 255, 255);
+        }
+        
+        #brand:hover {
+            color: var(--blue);
+        }
+        
+        header {
+            background-color: #000000;
+            text-align: center;
+            padding: 1rem 0;
+            font-family: var(--Lexend);
+            font-size: 30px;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            padding-top: 35px;
+            padding-bottom: 25px;
+        }
+        
+        h3 {
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+        
+        img {
+            height: auto;
+            width: 700px;
+        }
+        
+        ul li {
+            list-style: square;
+        }
+        
+        ol {
+            list-style-type: lower-roman;
+        }
+        
+        ol li #li {
+            list-style: upper-roman;
+        }
+        
+        div,
+        .container {
+            padding-bottom: 50px;
+        }
+        
+        footer {
+            background: hsl(0, 0%, 0%);
+            color: rgb(255, 255, 255);
+            padding: .5rem 0;
+            text-align: center;
+            font-family: var(--Lexend);
+        }
