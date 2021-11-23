@@ -61,7 +61,6 @@ h3 {
 }
 
 img {
-    height: auto;
     width: 700px;
     border: 3px solid var(--blue);
     border-radius: 10px;
