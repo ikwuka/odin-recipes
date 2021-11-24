@@ -1,93 +1,100 @@
 @import url(./fonts.css);
 
 :root {
-    /* Font family */
-    --Josefin: 'Josefin', Helvetica, Verdana, 'Times New Roman', Georgia, sans-serif;
-    --Lexend: 'Lexend', Helvetica, Verdana, Georgia, sans-serif;
-    --Livvic: 'Livvic', Arial, Helvetica, Verdana, Georgia, monospace;
-    /* Colors */
-    --blue: #1DA1FF;
-    --gray: #9A9A9A;
-    --light-gray: #CCCCCC;
+  /* Font family */
+  --Josefin: 'Josefin', Helvetica, Verdana, 'Times New Roman', Georgia, sans-serif;
+  --Lexend: 'Lexend', Helvetica, Verdana, Georgia, sans-serif;
+  --Livvic: 'Livvic', Arial, Helvetica, Verdana, Georgia, monospace;
+  /* Colors */
+  --blue: #1DA1FF;
+  --gray: #9A9A9A;
+  --light-gray: #CCCCCC;
 }
 
 
 /* Global rules */
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
 body {
-    background-color: #FFFFFF;
-    color: hsl(0, 0%, 0%);
-    font-family: var(--Josefin);
-    font-size: 17px;
-    box-sizing: border-box;
-    margin: 0%;
+  background-color: #FFFFFF;
+  color: hsl(0, 0%, 0%);
+  font-family: var(--Josefin);
+  font-size: 17px;
+  box-sizing: border-box;
+  margin: 0%;
 }
 
 a {
-    text-decoration: none;
-    color: var(--blue);
+  text-decoration: none;
+  color: var(--blue);
 }
 
 #brand {
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 32px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 32px;
 }
 
 #brand:hover {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 header {
-    background-color: #000000;
-    text-align: center;
-    padding: 1rem 0;
-    font-family: var(--Lexend);
-    font-size: 30px;
+  background-color: #000000;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: var(--Lexend);
+  font-size: 30px;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 h1 {
-    padding-top: 35px;
-    padding-bottom: 25px;
+  padding-top: 35px;
+  padding-bottom: 25px;
 }
 
 h3 {
-    padding-top: 30px;
-    padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 img {
-    width: 700px;
-    border: 3px solid var(--blue);
-    border-radius: 10px;
+  width: 700px;
+  border: 3px solid var(--blue);
+  border-radius: 10px;
 }
 
 ul li {
-    list-style: square;
+  list-style: square;
 }
 
 ol {
-    list-style-type: lower-roman;
+  list-style-type: lower-roman;
 }
 
 ol li #li {
-    list-style: upper-roman;
+  list-style: upper-roman;
 }
 
 div,
 .container {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 footer {
-    background: hsl(0, 0%, 0%);
-    color: rgb(255, 255, 255);
-    padding: 1rem;
-    text-align: center;
-    font-family: var(--Lexend);
-    font-weight: bold;
+  background: hsl(0, 0%, 0%);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  text-align: center;
+  font-family: var(--Lexend);
 }
