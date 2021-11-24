@@ -31,6 +31,8 @@ a {
   color: var(--blue);
 }
 
+
+/* Navigation */
 #brand {
   color: rgb(255, 255, 255);
   font-size: 32px;
@@ -56,12 +58,17 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 75%;
 }
 
+
+/* Fonts */
 h1 {
-  padding-top: 35px;
-  padding-bottom: 25px;
+  padding: 150px 0 30px 0 ;
+  font-family: var(--Lexend);
+  font-weight: bold;
+  text-align: center;
+
 }
 
 h3 {
@@ -69,13 +76,25 @@ h3 {
   padding-bottom: 10px;
 }
 
+
+/* Image(s) styling */
 img {
-  max-width: 100%;
+  width: 700px;
   height: auto;
   border: 3px solid var(--blue);
   border-radius: 10px;
 }
 
+#recipe-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+
+
+/* List styles */
 ul li {
   list-style: square;
 }
@@ -107,6 +126,8 @@ div,
   padding-bottom: 50px;
 }
 
+
+/* Footer */
 .footnav {
   background: hsl(0, 0%, 0%);
   color: rgb(255, 255, 255);
@@ -118,7 +139,6 @@ div,
 
 
 /* RESPONSIVE DESIGN */
-
 /* Mobile */
 [class*="col-"] {
   width: 100%;
