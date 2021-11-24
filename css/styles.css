@@ -33,12 +33,16 @@ a {
 
 #brand {
   color: rgb(255, 255, 255);
-  font-weight: bold;
   font-size: 32px;
 }
 
 #brand:hover {
   color: var(--blue);
+  font-weight: bold;
+  background: #FFFFFF;
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .topnav {
@@ -66,7 +70,7 @@ h3 {
 }
 
 img {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   border: 3px solid var(--blue);
   border-radius: 10px;
@@ -82,6 +86,20 @@ ol {
 
 ol li #li {
   list-style: upper-roman;
+}
+
+#recipe-links {
+  display: inline-block;
+  list-style: none;
+  border: 3px solid var(--blue);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px;
+}
+
+#recipe-links:hover {
+  font-weight: bold;
+  border: 3px solid #000;
 }
 
 div,
