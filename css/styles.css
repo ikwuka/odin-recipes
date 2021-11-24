@@ -13,21 +13,17 @@
 
 
 /* Global rules */
-html {
-  box-sizing: border-box;
-}
-
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
+  box-sizing: inherit;
   background-color: #FFFFFF;
   color: hsl(0, 0%, 0%);
   font-family: var(--Josefin);
-  font-size: 17px;
-  box-sizing: border-box;
-  margin: 0%;
+  font-size: 1.2vw;
+  margin: 0 auto;
 }
 
 a {
@@ -45,8 +41,9 @@ a {
   color: var(--blue);
 }
 
-header {
-  background-color: #000000;
+.topnav {
+  background-color: #000;
+  max-width: 100%;
   text-align: center;
   padding: 1rem 0;
   font-family: var(--Lexend);
@@ -69,7 +66,8 @@ h3 {
 }
 
 img {
-  width: 700px;
+  max-width: 700px;
+  height: auto;
   border: 3px solid var(--blue);
   border-radius: 10px;
 }
@@ -91,10 +89,31 @@ div,
   padding-bottom: 50px;
 }
 
-footer {
+.footnav {
   background: hsl(0, 0%, 0%);
   color: rgb(255, 255, 255);
   padding: 1rem;
+  max-width: 100%;
   text-align: center;
   font-family: var(--Lexend);
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* Mobile */
+[class*="col-"] {
+  width: 100%;
+}
+
+/* Tablet */
+@media only screen and (min-width: 600px) {
+  .col-s-1 {max-width: 8.33%;}
+}
+
+/* Desktop */
+@media only screen and (min-width: 770px) {
+  * {
+    width: 100%;
+  }
 }
