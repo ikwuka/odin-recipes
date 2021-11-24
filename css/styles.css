@@ -49,7 +49,7 @@ a {
 
 .topnav {
   background-color: #000;
-  max-width: 100%;
+  width: 100%;
   text-align: center;
   padding: 1rem 0;
   font-family: var(--Lexend);
@@ -58,7 +58,7 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 90%;
 }
 
 
@@ -79,7 +79,7 @@ h3 {
 
 /* Image(s) styling */
 img {
-  width: 700px;
+  width: 60%;
   height: auto;
   border: 3px solid var(--blue);
   border-radius: 10px;
@@ -132,7 +132,7 @@ div,
   background: hsl(0, 0%, 0%);
   color: rgb(255, 255, 255);
   padding: 1rem;
-  max-width: 100%;
+  width: 100%;
   text-align: center;
   font-family: var(--Lexend);
 }
