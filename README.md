@@ -9,7 +9,3 @@ From this project, I gained mastery of the HTML basics. This encompasses the cre
 Adding to that, this project has pioneered my adventure to mobile web app development; which was proven by the superb use of the meta tags and image (img) element, with its corresponding attributes that are irreplaceable in professional projects that needs to be shipped with assured agility. The anchor tag (a) was eqaully put to quality use in this unprecedented project that displays professionalism from day one! My communication (written and oral) skills also improved significantly.
 
 To present a more appealing design, I utilized the available opportunity to enforce an irresistable web responsiveness - with mobile, tablets, and desktop computers covered.
-
-### Solution
-
-I would be glad to hear your thoughts - any suggestion(s) and/or corrections will be highly appreciated. Thank you!
