@@ -35,7 +35,7 @@ a {
 /* Navigation */
 #brand {
   color: rgb(255, 255, 255);
-  font-size: 32px;
+  font-weight: bold;
 }
 
 #brand:hover {
@@ -81,9 +81,13 @@ h3 {
 
 /* Image(s) styling */
 img {
-  width: 100%;
+  display: block;
+  width: 70%;
+  max-width: 700px;
   height: auto;
-  border: 3px solid var(--blue);
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid var(--blue);
   border-radius: 10px;
 }
 
@@ -178,4 +182,18 @@ ol li #li {
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+}
+
+/* Responsive images */
+@media only screen and (min-device-width: 400px) {
+  img {
+    display: block;
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+  }
 }
