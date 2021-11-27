@@ -20,6 +20,7 @@
 body {
   box-sizing: inherit;
   background-color: #FFFFFF;
+  overflow: hidden;
   color: hsl(0, 0%, 0%);
   font-family: var(--Josefin);
   margin: 0 auto;
@@ -112,10 +113,21 @@ ol li #li {
   list-style: upper-roman;
 }
 
+.recipe-lists {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.recipes-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
 #recipe-links {
-  display: inline-block;
   list-style: none;
-  border: 3px solid var(--blue);
+  border: none;
   border-radius: 5px;
   padding: 20px;
   margin: 30px;
