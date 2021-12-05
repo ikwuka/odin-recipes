@@ -49,6 +49,7 @@ a {
 .topnav {
   background-color: #000;
   width: 100%;
+  height: 75px;
   text-align: center;
   padding: 1rem 0;
   font-family: var(--Lexend);
@@ -135,12 +136,16 @@ ol li #li {
 
 /* Footer */
 .footnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: hsl(0, 0%, 0%);
   color: rgb(255, 255, 255);
   padding: 1rem;
   width: 100%;
+  height: 75px;
   text-align: center;
-  font-family: var(--Livvic);
+  font-family: var(--Lexend);
   font-weight: bold;
 }
 
