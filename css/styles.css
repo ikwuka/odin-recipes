@@ -33,8 +33,9 @@ a {
 
 /* Navigation */
 #brand {
-  color: rgb(255, 255, 255);
+  color: hsl(39, 100%, 50%);
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 #brand:hover {
@@ -58,7 +59,7 @@ a {
 
 .container {
   margin: 0 auto;
-  padding: 10px 0 80px 0;
+  padding-top: 100px;
   max-width: 85%;
 }
 
