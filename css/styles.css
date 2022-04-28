@@ -114,16 +114,26 @@ ol li #li {
 }
 
 #recipe-links {
+  font-size: 25px;
+  font-weight: bold;
   display: inline-block;
   list-style: none;
-  border: none;
+  border: 2px solid orange;
   border-radius: 5px;
   padding: 10px;
   margin: 30px;
 }
 
 #recipe-links:hover {
-  font-weight: bold;
+  font-size: 30px;
+  background-color: #000;
+  color: white;
+  border: 3px solid orange;
+  border-radius: 10px;
+}
+
+#recipe-links a:hover {
+  color: #fff;
 }
 
  li {
